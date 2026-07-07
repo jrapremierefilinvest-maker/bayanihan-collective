@@ -1,0 +1,108 @@
+{
+  "audienceModes": [
+    {
+      "id": "mixed",
+      "label": "Mixed",
+      "description": "A realistic blend of curious and skeptical reactions, roughly balanced."
+    },
+    {
+      "id": "curious",
+      "label": "Curious",
+      "description": "Engaged, asks clarifying follow-up questions, generally receptive."
+    },
+    {
+      "id": "tough",
+      "label": "Tough",
+      "description": "Skeptical of cooperative structures, pushes back on vague claims, interrupts."
+    }
+  ],
+  "modules": [
+    {
+      "id": "mod-welcome",
+      "title": "Welcome to the Collective",
+      "summary": "Orientation for developers joining the cooperative: what membership means and what changes on day one.",
+      "talkingPoints": [
+        "The Collective is member-owned: developers who join hold a stake in how it runs, not just a listing on a platform.",
+        "Every member gets one voice in governance votes, regardless of tenure or project volume.",
+        "Membership includes access to shared resources: compute credits, dataset libraries, and a peer mentorship directory.",
+        "New members complete a short onboarding review before their profile is visible for project matching."
+      ]
+    },
+    {
+      "id": "mod-mutual-support",
+      "title": "How the Mutual Support System Works",
+      "summary": "Explains the case-based support model members use when something goes wrong on an engagement.",
+      "talkingPoints": [
+        "Any member can open a case: payment disputes, contract disagreements, or a client complaint.",
+        "Cases start at a routine tier and can escalate to a peer mediator, then to the cooperative board if unresolved.",
+        "Mediators are elected members, not outside staff, and rotate on a regular schedule.",
+        "The goal of mediation is a documented, fair resolution, not punishment of either party."
+      ]
+    },
+    {
+      "id": "mod-requesting-help",
+      "title": "How to Request Help",
+      "summary": "Practical walkthrough of filing a case or asking for mentorship.",
+      "talkingPoints": [
+        "Requests for help go through the same intake as formal cases, just tagged at a lighter priority.",
+        "A peer mentorship request should describe the specific skill gap, not just 'I need help with everything.'",
+        "Response times vary by tier: routine requests are best-effort, escalated cases have a due date and named mediator.",
+        "Members are encouraged to document what they already tried before asking, so mentors can jump straight to the gap."
+      ]
+    },
+    {
+      "id": "mod-contributing",
+      "title": "How to Contribute Resources",
+      "summary": "Covers the resource-sharing and contribution proposal process.",
+      "talkingPoints": [
+        "Members can propose contributing tools, templates, datasets, or compute time back to the shared pool.",
+        "Contribution proposals are reviewed lightly, mostly to confirm licensing is clean and there's no client-confidential material.",
+        "Contributing does not create an ownership claim beyond standard cooperative attribution norms.",
+        "Frequent contributors are recognized in the Collective's internal directory, which factors into peer trust for project matching."
+      ]
+    },
+    {
+      "id": "mod-governance",
+      "title": "Cooperative Values and Governance Basics",
+      "summary": "The values underpinning decisions and how governance votes actually happen.",
+      "talkingPoints": [
+        "Core values: shared ownership, transparent dispute resolution, and no member profiting from another member's mediation.",
+        "Board seats are filled by member election on a fixed term, with staggered rotation so the whole board never turns over at once.",
+        "Major policy changes go to a full membership vote; day-to-day mediation decisions stay with rotating mediators.",
+        "This is explicitly not a commission-based marketplace — the Collective does not take a cut of individual client engagements."
+      ]
+    }
+  ],
+  "qaBank": [
+    {
+      "id": "qa-1",
+      "moduleId": "mod-welcome",
+      "question": "Is this just another freelance marketplace with extra steps?",
+      "suggestedAnswer": "No — there's no commission on client work. Membership is about shared ownership and mutual support, not the platform taking a cut of every project."
+    },
+    {
+      "id": "qa-2",
+      "moduleId": "mod-mutual-support",
+      "question": "What happens if my case doesn't get resolved at the peer mediator level?",
+      "suggestedAnswer": "It escalates to the cooperative board, which is the final internal tier. Board decisions are documented and shared with both members involved."
+    },
+    {
+      "id": "qa-3",
+      "moduleId": "mod-requesting-help",
+      "question": "Can I request help anonymously?",
+      "suggestedAnswer": "Case intake requires your member identity so mediators can follow up, but sensitive details can be marked confidential in the case notes."
+    },
+    {
+      "id": "qa-4",
+      "moduleId": "mod-contributing",
+      "question": "Do I get paid for contributing a resource to the shared pool?",
+      "suggestedAnswer": "Not directly — contribution is recognized reputationally and factors into peer trust, not a cash payout."
+    },
+    {
+      "id": "qa-5",
+      "moduleId": "mod-governance",
+      "question": "Who actually makes the rules here?",
+      "suggestedAnswer": "Members do, through elected board seats and full-membership votes on major policy changes."
+    }
+  ]
+}
