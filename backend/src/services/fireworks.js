@@ -37,7 +37,7 @@ export async function classifyIntent(message) {
     return { ...classifyLocally(message), source: "local-fallback" };
   }
 
-  const model = process.env.FIREWORKS_GEMMA_MODEL || "accounts/fireworks/models/gemma2-9b-it";
+  const model = process.env.FIREWORKS_GEMMA_MODEL || "accounts/fireworks/models/gemma-4-26b-a4b-it";
   const prompt = `Classify the user's message into exactly one intent from this list: ${INTENTS.join(
     ", "
   )}. Respond with strict JSON only: {"intent": "...", "confidence": 0.0-1.0}.\n\nMessage: "${message}"`;
